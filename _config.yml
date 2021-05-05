@@ -1,10 +1,10 @@
 # Site
-name: "Mundana"
-description: "Mundana is a free Jekyll theme for awesome people like you, Medium like."
+name: "Crafty Developers"
+description: "Crafty Developers are passionate developers who also has a passion for teaching others on how to code or being creative!"
 logo: "assets/images/logo.png"
 favicon: "assets/images/favicon.ico"
-email: "wowthemesnet@gmail.com"
-mailchimp-list: "https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b"
+email: "icuemike@outlook.com"
+mailchimp-list: ""
 
 include: ["_pages"]
 permalink: /:title/
@@ -15,23 +15,24 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-admin
 
 authors:
-  sal:
-    name: Sal
-    site: https://www.wowthemes.net
-    avatar: /assets/images/avatar1.jpg
-    bio: "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
-    email: wowthemesnet@gmail.com
-    twitter: https://twitter.com/wowthemesnet
+  michael:
+    name: icueMike
+    site: https://www.craftydevs.net
+    avatar: /assets/images/memike.png
+    bio: "Hi, I am Michael, the developer of CraftyDevs. I hope you like it!"
+    email: icuemike@craftydevs.net
+    twitter: https://twitter.com/icuemike
 
-  jane:
-    name: Jane
-    site: https://www.wowthemes.net
-    avatar: /assets/images/avatar2.jpg
+  landon:
+    name: miceCODE
+    site: https://www.craftydevs.net
+    avatar: /assets/images/landon.png
     bio: "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
     email: fakemail@gmail.com
-    twitter: https://twitter.com/wowthemesnet
+    twitter: https://twitter.com/Akzual1
 
 # Defaults
 defaults:
@@ -40,8 +41,8 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sal
-      avatar: /assets/images/avatar1.jpg
+      author: icueMike
+      avatar: /assets/images/memike.png
 
   # all pages
   - scope:
@@ -50,4 +51,4 @@ defaults:
       layout: page
 
 # Paginate
-paginate: 10
+paginate: 6
