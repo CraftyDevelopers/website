@@ -1,3 +1,3 @@
-### Testing Contributors
+### Craft Dev Contributors
 
-@all-contributors please add @jakebolam for infrastructure, tests and code
+✨ Recognize all contributors, not just the ones who push code
